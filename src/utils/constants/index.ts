@@ -9,3 +9,6 @@ export const MEDIA_QUERIES_NAMES: TMmediaQueriesNames = {
   desktop: 'desktop',
   largeDesktop: 'largeDesktop'
 };
+
+//SERVICE KEYS
+export const GET_REPOSITORY_SERVICE_KEY = 'getRepostioryService';
