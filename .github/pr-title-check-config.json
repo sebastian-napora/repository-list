@@ -1,0 +1,18 @@
+{
+  "LABEL": {
+    "name": "PR Title needs formatting",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "regexp": "^(build|chore|ci|docs|feat|fix|refactor)(\\(.+\\))?!?: ATOMIC-\\d+[^\\s]+.*$",
+    "regexpFlags": "",
+    "ignoreLabels": [
+      "pr-title-ignore"
+    ]
+  },
+  "MESSAGES": {
+    "success": "Title OK",
+    "failure": "Title doesn't match the convention.",
+    "notice": "¯\\_(ツ)_/¯"
+  }
+}
