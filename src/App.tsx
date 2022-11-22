@@ -1,9 +1,5 @@
 import React from 'react';
 
 export const App = () => {
-  return (
-    <div className="App">
-      Work in progress...
-    </div>
-  );
-}
+  return <div className="App">Work in progress...</div>;
+};
