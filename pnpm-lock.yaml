@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@apollo/client': ^3.7.1
   '@material-ui/core': ^4.12.4
-  '@material-ui/icons': ^4.11.3
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^13.5.0
@@ -38,7 +37,6 @@ specifiers:
 dependencies:
   '@apollo/client': 3.7.1_gdcq4dv6opitr3wbfwyjmanyra
   '@material-ui/core': 4.12.4_2zx2umvpluuhvlq44va5bta2da
-  '@material-ui/icons': 4.11.3_n7wifq4b7gb55fiisdcfvz6txe
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 13.5.0
@@ -2233,25 +2231,6 @@ packages:
       react-dom: 18.2.0_react@18.2.0
       react-is: 17.0.2
       react-transition-group: 4.4.5_biqbaboplfbrettd7655fr4n2y
-    dev: false
-
-  /@material-ui/icons/4.11.3_n7wifq4b7gb55fiisdcfvz6txe:
-    resolution: {integrity: sha512-IKHlyx6LDh8n19vzwH5RtHIOHl9Tu90aAAxcbWME6kp4dmvODM3UvOHJeMIDzUbd4muuJKHmlNoBN+mDY4XkBA==}
-    engines: {node: '>=8.0.0'}
-    peerDependencies:
-      '@material-ui/core': ^4.0.0
-      '@types/react': ^16.8.6 || ^17.0.0
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-    dependencies:
-      '@babel/runtime': 7.20.1
-      '@material-ui/core': 4.12.4_2zx2umvpluuhvlq44va5bta2da
-      '@types/react': 18.0.25
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@material-ui/styles/4.11.5_2zx2umvpluuhvlq44va5bta2da:

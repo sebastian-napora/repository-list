@@ -54,15 +54,13 @@ describe('Repositories page test', () => {
       { numberTest: 2, dataTestId: ERROR_MESSAGE_DATA_TEST_ID },
       { numberTest: 3, dataTestId: CONTAINER_TABLE_WRAPPER_DATA_TEST_ID }
     ])('1.$numberTest. should render repositiories page with data-testid equal to: $dataTestId', ({ dataTestId }) => {
-      const { getByTestId, unmount } = render(
+      const { container, unmount } = render(
         <ThemeProvider theme={THEMES.data.main}>
           <Repositiories />
         </ThemeProvider>
       );
 
-      const element = getByTestId(dataTestId);
-
-      expect(element).toMatchSnapshot();
+      expect(container.innerHTML).toContain(dataTestId);
 
       unmount();
     });
