@@ -21,7 +21,7 @@ export const COLUMNS: ReadonlyArray<IColumn> = [
  * @function createNewRowsDataArray
  */
 export const createNewRowsDataArray: TCreateNewRowsDataArray = (data) =>
-  data?.search?.edges.map((repositoryDetails) => ({
+  data.search.edges.map((repositoryDetails) => ({
     name: repositoryDetails.node.name,
     stars: repositoryDetails.node.stargazerCount,
     forks: repositoryDetails.node.forks.totalCount,

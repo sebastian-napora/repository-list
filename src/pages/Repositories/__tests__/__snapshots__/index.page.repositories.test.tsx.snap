@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repositories page test 1. Checked the result of the repositories component with diffrent result of the query 1.1 should render repositiories page with data-testid equal to: loading-wrapper 1`] = `
+.c0 {
+  height: 80vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<div
+  class="c0"
+  data-testid="loading-wrapper"
+>
+  <div
+    class="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style="width: 40px; height: 40px;"
+  >
+    <svg
+      class="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx="44"
+        cy="44"
+        fill="none"
+        r="20.2"
+        stroke-width="3.6"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Repositories page test 1. Checked the result of the repositories component with diffrent result of the query 1.2 should render repositiories page with data-testid equal to: error-message 1`] = `
+<div
+  data-testid="error-message"
+>
+  Something went wrong, try again later.
+</div>
+`;
+
+exports[`Repositories page test 1. Checked the result of the repositories component with diffrent result of the query 1.3 should render repositiories page with data-testid equal to: container-table-wrapper 1`] = `
+.c1 {
+  width: 100%;
+}
+
+.c0 {
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+<div
+  class="MuiContainer-root MuiContainer-maxWidthSm"
+  data-testid="container-table-wrapper"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <h1
+      class="c0"
+    >
+      List of repositiories
+    </h1>
+    <div
+      class="MuiFormControl-root MuiTextField-root c1"
+    >
+      <label
+        class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+        data-shrink="false"
+        for="outlined-basic"
+        id="outlined-basic-label"
+      >
+        Search repository
+      </label>
+      <div
+        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiOutlinedInput-input"
+          id="outlined-basic"
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden="true"
+          class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            class="PrivateNotchedOutline-legendLabelled-3"
+          >
+            <span>
+              Search repository
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiGrid-root makeStyles-root-5 MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiPaper-root makeStyles-root-6 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiTableContainer-root makeStyles-container-7"
+      >
+        <table
+          aria-label="sticky table"
+          class="MuiTable-root MuiTable-stickyHeader"
+        >
+          <thead
+            class="MuiTableHead-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-head"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader"
+                scope="col"
+              >
+                Name
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-stickyHeader"
+                scope="col"
+              >
+                Stars
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight MuiTableCell-stickyHeader"
+                scope="col"
+              >
+                Forks
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="MuiTableBody-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-hover"
+              tabindex="-1"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                React
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                11111111111
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+              >
+                22222222
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="MuiTablePagination-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters"
+        >
+          <div
+            class="MuiTablePagination-spacer"
+          />
+          <p
+            class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+            id="mui-34957"
+          >
+            Rows per page:
+          </p>
+          <div
+            class="MuiInputBase-root MuiTablePagination-input MuiTablePagination-selectRoot"
+          >
+            <div
+              aria-haspopup="listbox"
+              aria-labelledby="mui-34957 mui-44142"
+              class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+              id="mui-44142"
+              role="button"
+              tabindex="0"
+            >
+              10
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput"
+              tabindex="-1"
+              value="10"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+          <p
+            class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+          >
+            1-1 of 1
+          </p>
+          <div
+            class="MuiTablePagination-actions"
+          >
+            <button
+              aria-label="Previous page"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              title="Previous page"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button
+              aria-label="Next page"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit Mui-disabled Mui-disabled"
+              disabled=""
+              tabindex="-1"
+              title="Next page"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
