@@ -187,7 +187,7 @@ exports[`Repositories page test 1. Checked the result of the repositories compon
           />
           <p
             class="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
-            id="mui-34957"
+            id="mui-97015"
           >
             Rows per page:
           </p>
@@ -196,9 +196,9 @@ exports[`Repositories page test 1. Checked the result of the repositories compon
           >
             <div
               aria-haspopup="listbox"
-              aria-labelledby="mui-34957 mui-44142"
+              aria-labelledby="mui-97015 mui-13433"
               class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
-              id="mui-44142"
+              id="mui-13433"
               role="button"
               tabindex="0"
             >

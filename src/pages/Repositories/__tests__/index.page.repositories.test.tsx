@@ -11,7 +11,7 @@ import '../useRepositories';
 
 import { THEMES } from '../../../theme/schema';
 
-import { IItEachRepostioriesPage } from './type';
+import { IItEachRepostioriesPage } from './types';
 
 import {
   CONTAINER_TABLE_WRAPPER_DATA_TEST_ID,
