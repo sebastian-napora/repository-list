@@ -7,7 +7,7 @@ export type TThemes = {
   };
 };
 
-export type TUseTheme = {
+export type TUseTheme = () => {
   theme: TSingleTheme;
   themeLoaded: boolean;
   setMode: (mode: TSingleTheme) => void;
