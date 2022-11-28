@@ -1,3 +1,9 @@
+# Atomic Design Pattern
+- for component strucuture
+
+# Factory Method Pattern
+- for creating API cals method
+
 # Required
 1. node 16.15.0 or higher
 2. pnpm installed globally
