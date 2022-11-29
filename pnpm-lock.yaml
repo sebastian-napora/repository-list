@@ -24,6 +24,7 @@ specifiers:
   jest: ^29.3.1
   jest-environment-jsdom: ^29.3.1
   jest-styled-components: ^7.1.1
+  jwt-decode: ^3.1.2
   prettier: ^2.7.1
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -46,6 +47,7 @@ dependencies:
   '@types/react-dom': 18.0.9
   graphql: 16.6.0
   graphql-tag: 2.12.6_graphql@16.6.0
+  jwt-decode: 3.1.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-scripts: 5.0.1_nghtn73mmwgzi3atvuuokcjlge
@@ -7585,6 +7587,10 @@ packages:
     dependencies:
       array-includes: 3.1.6
       object.assign: 4.1.4
+
+  /jwt-decode/3.1.2:
+    resolution: {integrity: sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==}
+    dev: false
 
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
