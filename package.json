@@ -6,6 +6,7 @@
   "scripts": {
     "start": "set PORT=4000 && react-scripts start",
     "build": "react-scripts build",
+    "docker:build": "docker build -t repository-list .",
     "test": "jest --runInBand",
     "eject": "react-scripts eject",
     "install:frozen-lockfile": "pnpm i --frozen-lockfile",
