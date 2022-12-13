@@ -15,7 +15,8 @@ describe('pages/Repositories/utils.ts test', () => {
                   forks: {
                     totalCount: 12312313
                   },
-                  id: '123123'
+                  id: '123123',
+                  url: 'some url'
                 }
               }
             ]
@@ -26,7 +27,8 @@ describe('pages/Repositories/utils.ts test', () => {
           name: 'React',
           stars: 1231231,
           forks: 12312313,
-          id: '123123'
+          id: '123123',
+          url: 'some url'
         }
       ]);
     });
@@ -43,7 +45,8 @@ describe('pages/Repositories/utils.ts test', () => {
                   forks: {
                     totalCount: 12312313
                   },
-                  id: '123123'
+                  id: '123123',
+                  url: 'some url 2'
                 }
               },
               {
@@ -53,7 +56,8 @@ describe('pages/Repositories/utils.ts test', () => {
                   forks: {
                     totalCount: 333
                   },
-                  id: '312'
+                  id: '312',
+                  url: 'some url 3'
                 }
               }
             ]
@@ -64,13 +68,15 @@ describe('pages/Repositories/utils.ts test', () => {
           name: 'React',
           stars: 1231231,
           forks: 12312313,
-          id: '123123'
+          id: '123123',
+          url: 'some url 2'
         },
         {
           name: 'React-native',
           stars: 222,
           forks: 333,
-          id: '312'
+          id: '312',
+          url: 'some url 3'
         }
       ]);
     });

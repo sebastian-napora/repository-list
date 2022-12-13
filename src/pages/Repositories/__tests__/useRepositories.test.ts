@@ -21,7 +21,8 @@ jest.mock('@apollo/client', () => ({
                 forks: {
                   totalCount: 12312313
                 },
-                id: '123123'
+                id: '123123',
+                url: 'some url'
               }
             }
           ]
@@ -53,7 +54,8 @@ describe('useRepositories test', () => {
           forks: 12312313,
           id: '123123',
           name: 'React',
-          stars: 1231231
+          stars: 1231231,
+          url: 'some url'
         }
       ]);
 
