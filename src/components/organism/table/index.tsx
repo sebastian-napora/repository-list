@@ -38,6 +38,14 @@ export const RepositoryTable: TRepositoryTableProps = ({ rows, columns }) => {
                   {columns.map((column) => {
                     const value = row[column.id];
 
+                    if (column.id === 'name') {
+                      return (
+                        <TableCell key={column.id} align={column.align}>
+                          <a href={row.url}>{row.name}</a>
+                        </TableCell>
+                      );
+                    }
+
                     return (
                       <TableCell key={column.id} align={column.align}>
                         {column.format && typeof value === 'number' ? column.format(value) : value}

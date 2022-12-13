@@ -25,5 +25,6 @@ export const createNewRowsDataArray: TCreateNewRowsDataArray = (data) =>
     name: repositoryDetails.node.name,
     stars: repositoryDetails.node.stargazerCount,
     forks: repositoryDetails.node.forks.totalCount,
-    id: repositoryDetails.node.id
+    id: repositoryDetails.node.id,
+    url: repositoryDetails.node.url
   }));

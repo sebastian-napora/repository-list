@@ -10,6 +10,7 @@ const GET_REPOSITORIES = gql`
         node {
           ... on Repository {
             name
+            url
             forks {
               totalCount
             }
