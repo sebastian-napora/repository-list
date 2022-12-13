@@ -1,4 +1,5 @@
 export interface IRow {
+  url: string;
   name: string;
   stars: number;
   forks: number;
@@ -18,6 +19,7 @@ export type TRepostioriesQueryData = {
     edges: {
       node: {
         name: string;
+        url: string;
         stargazerCount: number;
         forks: {
           totalCount: number;

@@ -14,4 +14,5 @@ export type TCreateNewRowsDataArray = (data: TRepostioriesQueryData) => {
   stars: number;
   forks: number;
   id: string;
+  url: string;
 }[];
