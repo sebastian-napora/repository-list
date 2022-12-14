@@ -7,8 +7,6 @@ import { cleanup, render } from '@testing-library/react';
 
 import { Repositiories } from '..';
 
-import '../useRepositories';
-
 import { THEMES } from '../../../theme/schema';
 
 import { IItEachRepostioriesPage } from './types';
@@ -19,8 +17,8 @@ import {
   LOADING_WRAPPER_DATA_TEST_ID
 } from '../constants';
 
-jest.mock('../useRepositories', () => ({
-  useRepositories: jest
+jest.mock('@apollo/client', () => ({
+  useQuery: jest
     .fn()
     .mockReturnValueOnce({
       loading: true,
