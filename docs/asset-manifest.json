@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/repository-list/static/js/main.f67443ae.js",
+    "static/js/641.e45f0479.chunk.js": "/repository-list/static/js/641.e45f0479.chunk.js",
+    "index.html": "/repository-list/index.html",
+    "main.f67443ae.js.map": "/repository-list/static/js/main.f67443ae.js.map",
+    "641.e45f0479.chunk.js.map": "/repository-list/static/js/641.e45f0479.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f67443ae.js"
+  ]
+}
