@@ -26,17 +26,7 @@ import { LoadingWrapper } from './styles';
 export const Repositiories: FC = () => {
   const { loading, error, rows, searchedPhrase, onChange } = useRepositories();
 
-  if (loading) {
-    return (
-      <LoadingWrapper data-testid={LOADING_WRAPPER_DATA_TEST_ID}>
-        <CircularProgress color="secondary" />
-      </LoadingWrapper>
-    );
-  }
-
   if (error) return <div data-testid={ERROR_MESSAGE_DATA_TEST_ID}>{ERROR_MESSAGE}</div>;
-
-  if (!rows) return <div />;
 
   return (
     <Container maxWidth="sm" data-testid={CONTAINER_TABLE_WRAPPER_DATA_TEST_ID}>
@@ -44,7 +34,13 @@ export const Repositiories: FC = () => {
         <SearchBar label={SEARCH_REPOSITORY} value={searchedPhrase} onChange={onChange} />
       </HeaderSection>
       <MainSection>
-        <RepositoryTable columns={COLUMNS} rows={rows} />
+        {loading ? (
+          <LoadingWrapper data-testid={LOADING_WRAPPER_DATA_TEST_ID}>
+            <CircularProgress color="secondary" />
+          </LoadingWrapper>
+        ) : (
+          <RepositoryTable columns={COLUMNS} rows={rows.length ? rows : []} />
+        )}
       </MainSection>
     </Container>
   );
