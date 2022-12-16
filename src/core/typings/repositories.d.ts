@@ -29,3 +29,19 @@ export type TRepostioriesQueryData = {
     }[];
   };
 };
+
+export type TRepostioriesQueryDataWithSearchPhrase = {
+  search: {
+    edges: {
+      node: {
+        name: string;
+        url: string;
+        stargazerCount: number;
+        forks: {
+          totalCount: number;
+        };
+        id: string;
+      };
+    }[];
+  };
+};

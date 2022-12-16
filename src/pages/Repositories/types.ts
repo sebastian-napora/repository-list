@@ -1,11 +1,5 @@
 import { ApolloError } from '@apollo/client';
-import { IRow, TRepostioriesQueryData } from '../../core/typings/repositories';
-
-export type TUseRepositories = () => {
-  loading: boolean;
-  error: ApolloError | undefined;
-  rows: IRow[];
-};
+import { TRepostioriesQueryData } from '../../core/typings/repositories';
 
 export type TGetNewRowsData = (data: TRepostioriesQueryData) => void;
 
@@ -16,3 +10,17 @@ export type TCreateNewRowsDataArray = (data: TRepostioriesQueryData) => {
   id: string;
   url: string;
 }[];
+
+export type TUseRepositories = () => {
+  searchedPhrase: string | undefined;
+  loading: boolean;
+  error: ApolloError | undefined;
+  rows: {
+    name: string;
+    stars: number;
+    forks: number;
+    id: string;
+    url: string;
+  }[];
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => NodeJS.Timeout;
+};
