@@ -28,7 +28,7 @@ export const useRepositories: TUseRepositories = () => {
       searchRequest.current = undefined;
     }
 
-    return setTimeout(() => {
+    searchRequest.current = setTimeout(() => {
       setSearchedPhrase(event.target.value);
     }, 800);
   };

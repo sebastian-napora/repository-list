@@ -22,5 +22,5 @@ export type TUseRepositories = () => {
     id: string;
     url: string;
   }[];
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => NodeJS.Timeout;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 };
