@@ -14,7 +14,7 @@ import { MOCK_COLUMNS, MOCK_ROWS } from './utils';
 export const RepositoriesTamplate = () => (
   <Container maxWidth="sm">
     <HeaderSection title={'List of repositiories you will see here soon...'}>
-      <SearchBar label={'Search repository'} onChange={() => null} />
+      <SearchBar label={'Search repository'} value={'react'} onChange={() => null} />
     </HeaderSection>
     <MainSection>
       <RepositoryTable columns={MOCK_COLUMNS} rows={MOCK_ROWS} />
